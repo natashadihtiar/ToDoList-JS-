@@ -1,0 +1,23 @@
+.ToDoList{
+    text-align: center;
+
+}
+.border {
+    border: 1px solid #aaaaaa;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+button, input {
+    margin-right: 5px;
+}
+.note-list {
+    font-size: 20px;
+    list-style: none;
+}
+.note-list__item.note-list__item--completed {
+    color: grey;
+    text-decoration: line-through;
+}
